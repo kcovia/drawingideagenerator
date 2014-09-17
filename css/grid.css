@@ -1,0 +1,50 @@
+/*
+	This is a grid system. Use it to structure your layout.
+	
+	Width: 800px
+	# of columns: 12
+	Column width: 52px
+	Gutter: 16px
+*/
+
+.grid-1 {width: 6.5%;} /*52px*/
+.grid-2 {width: 15%;} /*120px*/
+.grid-3 {width: 23.5%;}	/*188px*/
+.grid-4 {width: 32%;} /*256px*/
+.grid-5 {width: 40.5%;} /*324px*/
+.grid-6 {width: 49%;} /*392px*/
+.grid-7 {width: 57.5%;} /*460px*/
+.grid-8 {width: 66%;} /*528px*/
+.grid-9 {width: 74.5%;} /*596px*/							
+.grid-10 {width: 83%;} /*664px*/
+.grid-11 {width: 91.5;} /*732px*/
+.grid-12 {width: 100%;}	/*800px*/
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12 {
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+}
+
+.no-left{margin-left:0;}
+.no-right{margin-right:0;}
+
+.wrapper {
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+}
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}

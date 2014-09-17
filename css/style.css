@@ -1,0 +1,179 @@
+body, html {
+	  /* fallback */
+	background: #fbf8f5;
+	font-family: "Myriad Pro", Helvetica, sans-serif;
+	color: #555;
+	max-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body a {
+	text-decoration: none;
+	color: #222;
+}
+
+body p a:hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+	margin-top: 4%;
+	margin-bottom: 5%;
+	border-radius: 0em;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*HEADER*/
+
+.header {
+	font-family: "Helvetica Neue";
+	text-transform: capitalize;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 2%;
+	margin-bottom: 3%;
+	text-transform: lowercase;
+}
+
+.header span a {
+	text-decoration: none;
+}
+
+
+h1{
+	margin: 0% 0 0 0%;
+	font-size: 3em;
+}
+
+h1 a {
+	color: #555;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	opacity: .8;
+}
+
+h1 #drawing {
+	color: #DDB798;
+	opacity: .8;
+}
+
+h1 #idea {
+	color: #477AC2;
+}
+
+
+/*END HEADER*/
+
+.wrapper {
+	text-align: center;
+}
+
+#generate-button {
+	width: 10em;
+	padding: 1%;
+	font-size: 2em;
+	border-radius: 5px;
+	background: #eee;
+	margin: 3%;
+
+}
+
+#items {
+	margin: 5% 0 4% 0;
+
+}
+
+#items div {
+	font-size: 2em;
+	display: inline;
+	margin-right: 0.5%;
+}
+
+#items #adjective {
+	text-transform: capitalize;
+}
+
+#items  #locationPlace {
+	margin-right: 0;
+}
+
+#addForms {
+	margin-top: 10%;
+}
+
+#addforms h3 {
+
+}
+
+#addforms div {
+	display: inline;
+	text-align: center;
+}
+
+#addForms input[type=text] {
+
+	font-size: 1.1em;
+	width: 89.25%;
+}
+
+#addForms input[type=submit] {
+	margin-bottom: 2em;
+	font-size: 1.1em;	
+	width: 90%;
+}
+
+
+/*Media Queries - always at bottom*/
+
+
+/* Small Resolution -----*/
+@media screen and (max-width: 480px) {
+	.grid-1,
+	.grid-2,	
+	.grid-3,
+	.grid-4,
+	.grid-5,
+	.grid-6,
+	.grid-7,
+	.grid-8,
+	.grid-9,
+	.grid-10,
+	.grid-11,
+	.grid-12 {
+		width: 100%;
+		margin: 0 0%;
+	}
+
+	h1 {
+		font-size: 1.65em;
+		margin: 0;
+		padding: 0;		
+	}
+	
+	#generate-button {
+		max-width: 90%;
+		font-size: 1.5em;
+	}
+	
+	#addForms h2 {
+		margin-top: 100px;
+		font-size: 1em;
+	}
+	
+	#addForms input[type=text] {
+		font-size: 0.9em;
+	
+	}
+
+	#addForms input[type=submit] {
+		font-size: 0.9em;	
+
+
+	}
+}
